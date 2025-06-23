@@ -1,0 +1,1 @@
+Máquina de Turing utilizando JFLAP como trabalho da disciplina de Linguagens Formais 2025.1
