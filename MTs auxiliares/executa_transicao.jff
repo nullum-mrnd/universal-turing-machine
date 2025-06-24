@@ -28,8 +28,8 @@
 			<y>1063.0</y>
 		</state>
 		<state id="6" name="q6">
-			<x>1978.0</x>
-			<y>1054.0</y>
+			<x>1982.0</x>
+			<y>1058.0</y>
 		</state>
 		<state id="7" name="q7">
 			<x>1807.0</x>
@@ -48,8 +48,8 @@
 			<y>1239.0</y>
 		</state>
 		<state id="11" name="q11">
-			<x>1566.0</x>
-			<y>1429.0</y>
+			<x>1560.0</x>
+			<y>1424.0</y>
 		</state>
 		<state id="12" name="q12">
 			<x>1258.0</x>
@@ -104,8 +104,8 @@
 			<y>1568.0</y>
 		</state>
 		<state id="25" name="q25">
-			<x>1437.0</x>
-			<y>333.0</y>
+			<x>1424.0</x>
+			<y>604.0</y>
 		</state>
 		<state id="26" name="q26">
 			<x>2038.0</x>
@@ -125,25 +125,25 @@
 			<final/>
 		</state>
 		<state id="30" name="q30">
-			<x>1607.0</x>
-			<y>333.0</y>
+			<x>1571.0</x>
+			<y>530.0</y>
 		</state>
 		<state id="31" name="q31">
-			<x>1772.0</x>
-			<y>332.0</y>
+			<x>1753.0</x>
+			<y>479.0</y>
 		</state>
 		<state id="32" name="q32">
-			<x>1945.0</x>
-			<y>332.0</y>
+			<x>1926.0</x>
+			<y>479.0</y>
 		</state>
 		<state id="33" name="q33">
-			<x>2150.0</x>
-			<y>334.0</y>
+			<x>2102.0</x>
+			<y>566.0</y>
 			<final/>
 		</state>
 		<state id="34" name="q34">
-			<x>1773.0</x>
-			<y>474.0</y>
+			<x>1447.0</x>
+			<y>294.0</y>
 		</state>
 		<!--The list of transitions.-->
 		<transition>
@@ -166,6 +166,15 @@
 			<read>!Y</read>
 			<write>~</write>
 			<move>L</move>
+		</transition>
+		<transition>
+			<from>34</from>
+			<to>11</to>
+			<controlx>888</controlx>
+			<controly>587</controly>
+			<read>B</read>
+			<write>A</write>
+			<move>R</move>
 		</transition>
 		<transition>
 			<from>15</from>
@@ -198,6 +207,13 @@
 		<transition>
 			<from>32</from>
 			<to>32</to>
+			<read>!B</read>
+			<write>~</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>34</from>
+			<to>34</to>
 			<read>!B</read>
 			<write>~</write>
 			<move>R</move>
@@ -305,6 +321,13 @@
 			<to>17</to>
 			<read>X</read>
 			<write>X</write>
+			<move>R</move>
+		</transition>
+		<transition>
+			<from>13</from>
+			<to>17</to>
+			<read>A</read>
+			<write>A</write>
 			<move>R</move>
 		</transition>
 		<transition>
@@ -508,6 +531,13 @@
 			<to>9</to>
 			<read>a</read>
 			<write>a</write>
+			<move>L</move>
+		</transition>
+		<transition>
+			<from>7</from>
+			<to>9</to>
+			<read>b</read>
+			<write>b</write>
 			<move>L</move>
 		</transition>
 		<transition>
