@@ -142,8 +142,8 @@
 			<final/>
 		</state>
 		<state id="34" name="q34">
-			<x>1447.0</x>
-			<y>294.0</y>
+			<x>1027.0</x>
+			<y>374.0</y>
 		</state>
 		<!--The list of transitions.-->
 		<transition>
@@ -170,8 +170,8 @@
 		<transition>
 			<from>34</from>
 			<to>11</to>
-			<controlx>888</controlx>
-			<controly>587</controly>
+			<controlx>709</controlx>
+			<controly>1402</controly>
 			<read>B</read>
 			<write>A</write>
 			<move>R</move>
