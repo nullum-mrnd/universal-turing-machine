@@ -1,6 +1,6 @@
-## Exemplos de Uso para a MTU criada ##
+# Exemplos de Uso para a MTU criada ##
 
-# Introdução
+## Introdução
 
 O input da MTU (máquina de Turing universal) receberá uma entrada codificada que contém transições de uma MT e uma palavra, decidindo se ela é aceita ou não.
 Sobre a entrada codificada, as transições são definidas como:
@@ -12,7 +12,7 @@ As entradas surgem após a definição de transição, iniciando a partir do car
 
 Exemplo de input: `q1a1a1Rq1#q1a11a1Lqf$a1a11`
 
-# Casos de aceite
+## Casos de aceite
 
 - Corretos:
 
@@ -34,7 +34,7 @@ Exemplo de input: `q1a1a1Rq1#q1a11a1Lqf$a1a11`
 
 `q1a1a1Rq111111111#q111111111a1a11111Rq11111111#q11111111a11111a111Rq1111111#q1111a1111111a1111111111Rqf$a11a1a111`
 
-# Casos de não aceitamento
+## Casos de não aceitamento
 
 - Rejeitados
 
